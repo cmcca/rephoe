@@ -1,0 +1,46 @@
+body {
+    width: 85%;
+    height: 85%;
+    margin: auto;
+    margin-top: 10%;
+    background-color: rgb(107, 177, 153);
+}
+#topBit {
+    min-width: 100%;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+#content {
+    background-color: antiquewhite;
+    border-radius: 20px;
+    min-height: 500px;
+}
+#nav {
+    margin-left:25%;
+    margin-bottom: 3vw;
+}
+#sig {
+    width: 50%;
+    margin-left: 25%;
+
+}
+.navButton {
+    width: 25%;
+    padding: 1vw;
+    margin: auto;
+}
+#contactInfo #portInfo #aboutInfo {
+    display: none;
+}
+#mahFace {
+    width: 95%;
+    padding: 10px;
+    opacity: .75;
+    border-radius: 20px;
+}
+.webImg {
+    max-width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
