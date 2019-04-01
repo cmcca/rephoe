@@ -1,0 +1,45 @@
+/*
+ colors
+    e9aa90
+    b97f6d
+    ffffff
+*/
+nav {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+h1 {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 10vw;
+    display: block;
+    margin: auto;
+    margin-top: 25%;
+}
+button, a{
+    display: block;
+    background-color: transparent;
+    color: #abc3ca;
+    padding: 10px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 6vw;
+
+}
+button:hover, a:hover {
+    border-color: #e9aa90;
+    outline-color: #e9aa90;
+    color: #e9aa90;
+    text-decoration: none;
+}
+#sig {
+    min-width: 75%;
+    display: block;
+    margin: auto;
+    margin-top: 25%;
+}
+
+
+@media only screen and (max-width : 768px) {
+
+
+
+}
