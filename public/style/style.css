@@ -14,17 +14,26 @@ h1, #sig {
     margin-top: 10%;
 
 }
+nav {
+    text-align: center;
+}
+
 button, a{
     display: inline-block;
-    margin: auto;
     background-color: transparent;
     color: #abc3ca;
     padding: 10px;
     font-family: 'Comfortaa', cursive;
     font-size: 4vw;
 
-
 }
+button:hover, a:hover {
+    border-color: #e9aa90;
+    outline-color: #e9aa90;
+    color: #e9aa90;
+    text-decoration: none;
+}
+
 #content {
     background-color: antiquewhite;
     border-radius: 20px;
