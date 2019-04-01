@@ -5,12 +5,13 @@ nav {
     margin-left: 25%;
     margin-right: 25%;
 }
-h1, #sig {
+#sig a {
     font-family: 'Homemade Apple', cursive;
     font-size: 10vw;
     display: block;
     margin: auto;
     margin-top: 25%;
+    color: #566266;
 }
 button, a{
     display: block;

@@ -1,24 +1,25 @@
 body {
-    width: 90%;
-    height: 90%;
+    width: 95%;
+    height: 95%;
     margin: auto;
     margin-top: 10%;
     margin-bottom: 10%;
     background-color: #f1f1f1;
 }
-h1, #sig {
+#sig a {
     font-family: 'Homemade Apple', cursive;
     font-size: 6vw;
+    min-width: 100%;
     display: block;
     margin: auto;
     margin-top: 10%;
-
+    color: #566266;
 }
 nav {
     text-align: center;
 }
 
-button, a{
+nav a{
     display: inline-block;
     background-color: transparent;
     color: #abc3ca;
@@ -32,6 +33,34 @@ button:hover, a:hover {
     outline-color: #e9aa90;
     color: #e9aa90;
     text-decoration: none;
+}
+h1 {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 4vw;
+    padding: 2vw;
+}
+h2 {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 3vw;
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+    color: #566266;
+}
+footer h2 {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 15vw;
+    color: #f5f5f5;
+    position: fixed;
+    left: -15;
+    bottom: -15;
+    width: 100%;
+    z-index: -10;
+}
+p {
+    font-family: 'Comfortaa', cursive;
+    font-size: 3vw;
+    color: #abc3ca;
+
 }
 
 #content {
